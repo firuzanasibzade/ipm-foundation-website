@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - IPM Foundation</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+            padding-top: 60px; /* For sticky header */
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #003c6d; /* IPM Blue */
+            color: white;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        header .logo h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        nav ul li a:hover {
+            color: #ff6f61;
+        }
+
+        /* Main Content Section */
+        .about-us {
+            background-color: #fff;
+            padding: 60px 0;
+            min-height: 100vh; /* Ensure full screen height */
+        }
+
+        .about-us .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .title {
+            font-size: 3rem;
+            color: #003c6d;
+            margin-bottom: 40px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h3 {
+            font-size: 2rem;
+            color: #003c6d;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .section p {
+            font-size: 1.15rem;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .section ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        .section ul li {
+            font-size: 1.15rem;
+            color: #555;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        /* Button Styling */
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6f61; /* Button color */
+            color: white;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            margin-top: 20px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #003c6d; /* Darker blue on hover */
+            cursor: pointer;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #003c6d;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>IPM Foundation</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Get Involved</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="about-us">
+        <div class="container">
+            <h2 class="title">About Us</h2>
+
+            <!-- Mission Section -->
+            <div class="section">
+                <h3>Our Mission</h3>
+                <p>The <strong>IPM Foundation</strong> is dedicated to providing access to project management knowledge, education, and resources to underserved communities and non-profit organizations. Our mission is to empower individuals by equipping them with the skills needed to manage successful projects and drive positive change in their communities through effective project management practices.</p>
+            </div>
+
+            <!-- Vision Section -->
+            <div class="section">
+                <h3>Our Vision</h3>
+                <p>Our vision is to create a world where project management skills are accessible to all, especially in education, healthcare, and non-profits. Through the IPM Foundation, we aim to enable individuals and organizations to thrive, fostering sustainable development and empowering the next generation of project managers.</p>
+            </div>
+
+            <!-- Why We Set It Up Section -->
+            <div class="section">
+                <h3>Why We Set Up the IPM Foundation</h3>
+                <p>The <strong>IPM Foundation</strong> was established to extend the mission of the Institute of Project Management (IPM) beyond professional training and certifications. Project management is a key skill for success, but it is often not accessible to those who need it most. The Foundation allows us to give back by providing knowledge and support to those in need, helping them achieve better project outcomes and have a meaningful impact on their communities.</p>
+            </div>
+
+            <!-- Goals Section -->
+            <div class="section">
+                <h3>Our Goals</h3>
+                <ul>
+                    <li><strong>Provide Access to Project Management Education:</strong> Offering free or subsidized training to underserved communities to equip them with valuable project management skills.</li>
+                    <li><strong>Support Non-Profits and Social Enterprises:</strong> Assisting non-profits by improving their project management capabilities, ensuring they can better serve their communities.</li>
+                    <li><strong>Create Volunteer and Mentorship Opportunities:</strong> Engaging IPM professionals and volunteers to support emerging project managers and guide non-profits in their project efforts.</li>
+                    <li><strong>Raise Awareness of Project Management's Value:</strong> Promoting the importance of project management and its potential to drive success in various sectors, such as education and healthcare.</li>
+                </ul>
+                <a href="#" class="cta-button">Get Involved</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 IPM Foundation. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
